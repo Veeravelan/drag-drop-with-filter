@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and drop</title>
+    <link href='css/jquery-ui.min.css' />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src='js/jquery-3.5.1.min.js' defer></script>
+    <script src='js/jquery-ui.min.js' defer></script>
+    <script src='js/script.js' defer></script>
+</head>
+
+<body>
+    <main class="container">
+        <section class="grid-container">
+            <div class="item-lists draggable">
+                <ul class="drag-ul">
+                    <li>
+                        <input type="text" id="search-items" class="form-field" placeholder="Search for the items" />
+                    </li>
+                </ul>
+            </div>
+            <div class="item-lists droppable">
+                <ul class='drop-ul'></ul>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
